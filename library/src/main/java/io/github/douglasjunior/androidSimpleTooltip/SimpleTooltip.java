@@ -395,7 +395,7 @@ public class SimpleTooltip implements PopupWindow.OnDismissListener {
             popup.setClippingEnabled(true);
             popup.update((int) location.x, (int) location.y, popup.getWidth(), popup.getHeight());
             popup.getContentView().requestLayout();
-            createOverlay();
+            //createOverlay();
         }
     };
 
